@@ -1,5 +1,5 @@
 body {
-  background: #f0aaaa;
+  background: white;
   color: #150000;
 }
 
@@ -9,13 +9,12 @@ a {
 }
 
 i {
-  color: #ff4242;
+  color: red;
 }
 
 .slide-container:has(.section-title) {
   margin: 0 !important;
-  background: #150000;
-  background: linear-gradient(125deg, rgba(21, 0, 0, 1) 0%, rgba(56, 6, 20, 1) 35%, rgba(21, 0, 0, 1) 100%);
+  background: black;
   padding: 0 !important;
   width: 100vw !important;
   height: 100vh !important;
@@ -25,6 +24,38 @@ i {
 .section-title {
   margin: 0;
   text-transform: uppercase;
-  color: #ff8282;
+  color: white;
   background: transparent;
+}
+
+
+.section-title i {
+  color: orangered;
+}
+
+
+.slide-container:has(.big-image) {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  overflow: hidden;
+}
+
+.big-image {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important;
+  object-fit: cover;
+}
+
+
+.takeaway {
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.part {
+  text-decoration: underline;
 }
