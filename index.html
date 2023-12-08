@@ -47,6 +47,8 @@
   <div>Problem: Engines make assumptions about shaders</div>
   <div>Grounded in real world</div>
   <div>Radical Stylisation: Difficult, Lots of Effort</div>
+  <div>Worse: 3d DCC tools make same assumptions</div>
+  <div>Result: Convenient pipelines form around PBR materials</div>
   <div class="section-title"><span class="part">Part II: Finding Your Style</span>
     <br /> <i style="font-size: 0.6em; text-transform: capitalize; text-decoration: none !important;">A Recipe Book</i>
   </div>
@@ -55,7 +57,14 @@
   <div>Godot seems promising</div>
   <div>Unreal more opinionated</div>
   <div>Unity URP & HDRP moving targets & much more complicated</div>
-  <div class="takeaway">Game Stylisation is a spectrum</div>
+  <div class="takeaway">Start Early</div>
+  <div>Stylisation will change your art pipeline</div>
+  <div>Can't be slapped on top</div>
+  <div>Get assets into engine early</div>
+  <div class="takeaway">Surface Shaders are Everything</div>
+  <div>More control on a per asset basis</div>
+  <div class="takeaway">Layering</div>
+  <!-- <div class="takeaway">Game Stylisation is a spectrum</div>
   <div class="big-image"><svg viewBox="0 0 1343 437" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="1343" height="437" />
       <path
@@ -68,8 +77,9 @@
         d="M1072.59 259V242.248H1080.72V246.448H1077.27V248.656H1080.08V252.424H1077.27V254.8H1080.77V259H1072.59ZM1081.84 259V245.824H1085.56V246.904H1085.61C1086.43 246.04 1087.46 245.632 1088.68 245.632C1090.03 245.632 1091.13 246.112 1091.83 247H1091.87C1092.69 246.088 1093.79 245.632 1095.14 245.632C1097.66 245.632 1099.24 247.24 1099.24 249.856V259H1094.87V251.08C1094.87 250.24 1094.51 249.76 1093.82 249.76C1093.15 249.76 1092.74 250.24 1092.74 251.08V259H1088.37V251.08C1088.37 250.24 1087.99 249.76 1087.29 249.76C1086.62 249.76 1086.23 250.24 1086.23 251.08V259H1081.84ZM1104.44 259.192C1101.92 259.192 1100.43 257.56 1100.43 254.944V245.824H1104.82V253.744C1104.82 254.584 1105.11 255.064 1105.8 255.064C1106.52 255.064 1106.93 254.584 1106.93 253.744V245.824H1111.32V259H1107.6V257.944H1107.56C1106.79 258.808 1105.68 259.192 1104.44 259.192ZM1112.55 259V241.648H1116.94V259H1112.55ZM1121.89 259.144C1119.37 259.144 1117.71 257.464 1117.71 254.752C1117.71 252.016 1119.39 250.432 1121.89 250.432C1122.85 250.432 1123.69 250.672 1124.36 251.056H1124.41V250.888C1124.41 249.736 1123.55 249.04 1122.03 249.04C1120.91 249.04 1119.78 249.4 1118.91 249.88V246.4C1120.26 245.896 1121.79 245.632 1123.23 245.632C1126.81 245.632 1128.8 247.36 1128.8 250.864V259H1124.7V258.232H1124.65C1123.98 258.808 1122.99 259.144 1121.89 259.144ZM1121.89 254.68C1121.89 255.544 1122.47 256.096 1123.26 256.096C1124.05 256.096 1124.6 255.544 1124.6 254.68C1124.6 253.84 1124.05 253.264 1123.26 253.264C1122.47 253.264 1121.89 253.84 1121.89 254.68ZM1134.4 259.192C1131.76 259.192 1130.4 257.92 1130.4 255.016V249.616H1129.29V246.928C1130.71 246.448 1131.43 245.584 1131.62 243.88L1131.69 243.232H1134.79V245.824H1136.88V249.616H1134.79V253.936C1134.79 254.632 1135.17 254.92 1135.68 254.92C1135.96 254.92 1136.35 254.824 1136.76 254.656V258.832C1136.08 259.048 1135.29 259.192 1134.4 259.192ZM1137.83 259V245.824H1142.23V259H1137.83ZM1137.57 242.848C1137.57 241.504 1138.51 240.616 1140.04 240.616C1141.58 240.616 1142.51 241.504 1142.51 242.848C1142.51 244.192 1141.58 245.056 1140.04 245.056C1138.53 245.056 1137.57 244.192 1137.57 242.848ZM1149.94 259.216C1145.79 259.216 1143.1 256.528 1143.1 252.424C1143.1 248.32 1145.81 245.632 1149.94 245.632C1154.07 245.632 1156.76 248.32 1156.76 252.424C1156.76 256.528 1154.07 259.216 1149.94 259.216ZM1147.64 252.424C1147.64 253.864 1148.6 254.872 1149.94 254.872C1151.28 254.872 1152.2 253.864 1152.2 252.424C1152.2 250.96 1151.28 249.952 1149.94 249.952C1148.57 249.952 1147.64 250.96 1147.64 252.424ZM1157.59 259V245.824H1161.31V246.88H1161.36C1162.13 246.064 1163.18 245.632 1164.48 245.632C1166.93 245.632 1168.56 247.24 1168.56 249.856V259H1164.17V251.08C1164.17 250.24 1163.78 249.76 1163.09 249.76C1162.39 249.76 1161.98 250.24 1161.98 251.08V259H1157.59Z"
         fill="black" />
     </svg>
-  </div>
-  <div class="big-image">
+  </div> -->
+
+  <!-- <div class="big-image">
     <svg viewBox="0 0 1343 437" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect width="1343" height="437" fill="white" />
       <path
@@ -85,23 +95,18 @@
     </svg>
   </div>
   <div><img style="max-height: 80vh;" src="./assets/SixStudiesOfPillows.webp" /></div>
-  <div><img src="./assets/Serendipity.jpeg" /></div>
-  <div class="takeaway">Layering</div>
-
+  <div><img src="./assets/Serendipity.jpeg" /></div> -->
   <div class="takeaway">Experiment with Inappropriate Inputs</div>
-  <div class="big-image"><img src="./assets/Luck.png" /></div>
   <div class="takeaway">Color Blending</div>
   <div class="layout"><img src="./assets/Miro.webp" /></div>
   <div class="big-image"><img src="./assets/Subtractive.png" /></div>
-  <div><img src="./assets/SubtractiveAmplify.png" /></div>
   <div class="takeaway">Consider Space</div>
   <div class="big-image"><img src="./assets/ScreenSpace.png" /></div>
   <div class="takeaway">Organic Noise</div>
   <div class="big-image"><img src="./assets/FinishLineNoNoise.png" /></div>
   <div class="big-image"><img src="./assets/FinishLine.png" /></div>
   <div class="takeaway">Outlines</div>
-  <div class="big-image"><img src="./assets/Outlines.png" /></div>
-  <div class="takeaway">Thresholds & Signed Distance Functions</div>
+  <div class="takeaway">Thresholds & Shapes</div>
   <div class="big-image"><img src="./assets/StepFunctions.png" /></div>
   <div class="big-image"><img src="./assets/StepFunctions2.png" /></div>
   <div class="big-image"><img src="./assets/SDFExample.png" /></div>
@@ -111,20 +116,22 @@
   <div class="big-image"><img src="./assets/NDotL.png" /></div>
   <div><img src="./assets/NDotLAmplify.png" /></div>
   <div class="big-image"><img src="./assets/ControlledShadows.png" /></div>
-  <div class="takeaway">Post Processing is everything</div>
+  <div class="takeaway">Post Processing is Everything</div>
   <div>Especially Color Grading</div>
   <div class="section-title">Part III: Takeaways</div>
   <div class="takeaway">Choose Appropriate Tech</div>
-  <div class="takeaway">Game Stylisation is a spectrum</div>
+  <div class="takeaway">Start Early</div>
+  <div class="takeaway">Surface Shaders are Everything</div>
+  <!-- <div class="takeaway">Game Stylisation is a spectrum</div> -->
   <div class="takeaway">Layering</div>
   <div class="takeaway">Experiment with Inappropriate Inputs</div>
   <div class="takeaway">Color Blending</div>
   <div class="takeaway">Consider Space</div>
   <div class="takeaway">Organic Noise</div>
   <div class="takeaway">Outlines</div>
-  <div class="takeaway">Thresholds & Signed Distance Functions</div>
+  <div class="takeaway">Thresholds & Shapes</div>
   <div class="takeaway">Take Control of Your Shadows</div>
-  <div class="takeaway">Post Processing is everything</div>
+  <div class="takeaway">Post Processing is Everything</div>
 </body>
 
 </html>
